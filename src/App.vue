@@ -4,16 +4,16 @@
       <nav>
         <ul>
           <li class="nav-item">
-            <img class="logo" src="./assets/build-a-bot-logo.png" />
+            <img class="logo" src="./assets/build-a-bot-logo.png">
             Build a bot
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <robot-builder />
+      <robot-builder/>
     </main>
-      </div>
+  </div>
 </template>
 
 <script>
@@ -29,18 +29,22 @@ export default {
 </script>
 
 <style>
-body{
-  background: linear-gradient(to bottom, #555, #999)
+body {
+  background: linear-gradient(to bottom, #555, #999);
+  background-attachment: fixed;
 }
+</style>
+
+<style scoped>
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #2c3e50;
   margin-top: 60px;
 }
-main{
+main {
   margin: 0 auto;
   padding: 30px;
   background-color: white;
